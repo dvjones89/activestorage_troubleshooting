@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @vlog.title %>
+</p>
+
+<p>
+  <strong>Dated on:</strong>
+  <%= @vlog.dated_on %>
+</p>
+
+<%= link_to 'Edit', edit_vlog_path(@vlog) %> |
+<%= link_to 'Back', vlogs_path %>
